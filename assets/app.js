@@ -18,5 +18,8 @@ function criar_cartao(categoria, pergunta, resposta){
     container.appendChild(cartao)
 }
 function adicionarNovoCartao() {
-    
+    let categoria = prompt("Coloque a categoria (ex: Programa):")
+    let pergunta = prompt("Digite a sua pergunta:")
+    let resposta = prompt("Digite a sua resposta:")
+
 }
