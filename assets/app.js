@@ -25,4 +25,8 @@ function adicionarNovoCartao() {
     if (categotia && pergunta && resposta) {
         criar_cartao(categoria, pergunta, resposta)
     }
+
+    else {
+        alert("Preencha todos os campos para criar o cartao!")
+    }
 }
