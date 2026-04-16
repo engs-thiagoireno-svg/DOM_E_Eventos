@@ -22,7 +22,7 @@ function adicionarNovoCartao() {
     let pergunta = prompt("Digite a sua pergunta:")
     let resposta = prompt("Digite a sua resposta:")
 
-    if (categotia && pergunta && resposta) {
+    if (categoria && pergunta && resposta) {
         criar_cartao(categoria, pergunta, resposta)
     }
 
